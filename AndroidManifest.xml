@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.logomancy.dashquotes.civ5"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name="net.logomancy.dashquotes.civ5.Civ5QuotesExtension" android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+			<intent-filter>
+         		<action android:name="com.google.android.apps.dashclock.Extension" />
+     		</intent-filter>
+     		<meta-data android:name="protocolVersion" android:value="2" />
+     		<meta-data android:name="worldReadable" android:value="true" />
+     		<meta-data android:name="description" android:value="@string/sys_extension_description" />   
+        </service>
+        <activity android:name="net.logomancy.dashquotes.civ5.ExpandActivity" android:theme="@style/AppTheme" android:label="@string/app_name" android:exported="true">
+            <intent-filter >
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

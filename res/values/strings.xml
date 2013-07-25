@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">DashQuotes: Civilization V</string>
+    <string-array name="quotes">
+        
+        <item>Their rising all at once was as the sound of a thunder heard remote.\n\t&#8212;John Milton</item>
+        <item>Once the rockets are up, who cares where they come down?\n\t&#8212;Tom Lehrer</item>
+        <item>Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.\n\t&#8212;Daniel Webster</item>
+        <item>Thou shalt not muzzle the ox when he treadeth out the corn.\n\t&#8212;The Bible, Deuteronomy 25:4</item>
+        <item>Those who cannot remember the past are condemned to repeat it.\n\t&#8212;George Santayana</item>
+        <item>The haft of the arrow had been feathered with one of the eagle\'s own plumes. We often give our enemies the means of our own destruction.\n\t&#8212;Aesop</item>
+        <item>Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.\n\t&#8212;Homer</item>
+        <item>The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.\n\t&#8212;Albert Einstein</item>
+        <item>Happiness: a good bank account, a good cook and a good digestion.\n\t&#8212;Jean-Jacques Rousseau</item>
+        <item>If the brain were so simple we could understand it, we would be so simple we couldn\'t.\n\t&#8212;Lyell Watson</item>
+        <item>Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.\n\t&#8212;Homer</item>
+        <item>So teach us to number our days, so that we may apply our hearts unto wisdom.\n\t&#8212;The Bible, Psalms 90:12</item>
+        <item>Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of our nation.\n\t&#8212;Calvin Coolidge</item>
+        <item>Who pulleth out this sword of this stone and anvil, is rightwise king born of all England\n\t&#8212;Sir Thomas Malory</item>
+        <item>The only thing that saves us from the bureaucracy is its inefficiency.\n\t&#8212;Eugene McCarthy</item>
+        <item>Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.\n\t&#8212;Albert Einstein</item>
+        <item>I find the great thing in this world is not so much where we stand, as in what direction we are moving.\n\t&#8212;Oliver Wendell Holmes</item>
+        <item>Computer are like Old Testament gods: lots of rules and no mercy.\n\t&#8212;Joseph Campbell</item>
+        <item>Three things are to be looked to in a building: that it stand on the right spot; that it be securely founded; that it be successfully executed.\n\t&#8212;Johann Wolfgang von Goethe</item>
+        <item>Better is bread with a happy heart/Than wealth with vexation.\n\t&#8212;Amenemope</item>
+        <item>As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.\n\t&#8212;Christopher Dawson</item>
+        <item>Compound interest is the most powerful force in the universe.\n\t&#8212;Albert Einstein</item>
+        <item>Only within the moment of time represented by the present century as one species, man, acquired significant power to alter the nature of his world.\n\t&#8212;Rachel Carson</item>
+        <item>Education is the best provision for old age.\n\t&#8212;Aristotle</item>
+        <item>Is it a fact &#8212; or have I dreamt it &#8212; that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?\n\t&#8212;Nathaniel Hawthorne</item>
+        <item>There\'s a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.\n\t&#8212;Trip Hawkins</item>
+        <item>Instrumental or mechanical science is the noblest and, above all others, the most useful.\n\t&#8212;Leonardo da Vinci</item>
+        <item>The nation that destroys its soil destroys itself.\n\t&#8212;Franklin Delano Roosevelt</item>
+        <item>Aeronautics was neither an industry nor a science. It was a miracle.\n\t&#8212;Igor Sikorsky</item>
+        <item>I think we all agree, the past is over.\n\t&#8212;George W. Bush</item>
+        <item>The new electronic interdependence recreates the world in the image of a global village.\n\t&#8212;Marshall McLuhan</item>
+        <item>The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.\n\t&#8212;Alfred Nobel</item>
+        <item>My kingdom for a horse!\n\t&#8212;William Shakespeare (Richard III)</item>
+        <item>Do not wait to strike \'til the iron is hot; but make it hot by striking.\n\t&#8212;William Butler Yeats</item>
+        <item>The night is far spent, the day is at hand; let us therefore cast off the works of darkness, and let us put on the armor of light.\n\t&#8212;The Bible, Romans 13:12</item>
+        <item>The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being.\n\t&#8212;Thomas Jefferson</item>
+        <item>How happy are those whose walls already rise!\n\t&#8212;Virgil</item>
+        <item>The speed of communication is wondrous to behold. It is also true that speed can multiply the distribution of information that we know to be untrue.\n\t&#8212;Edward R. Murrow</item>
+        <item>Mathematics is the gate and key to the sciences.\n\t&#8212;Roger Bacon</item>
+        <item>When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.\n\t&#8212;Sri Guru Granth Sahib</item>
+        <item>There never was a good knife made of bad steel.\n\t&#8212;Benjamin Franklin</item>
+        <item>Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.\n\t&#8212;George S. Patton</item>
+        <item>The meek shall inherit the Earth, but not its mineral rights.\n\t&#8212;J. Paul Getty</item>
+        <item>The impact of nanotechnology is expected to exceed the impact the electronics revolution has had on our lives.\n\t&#8212;Richard Schwartz</item>
+        <item>The winds and the waves are always on the side of the ablest navigators.\nt\&#8212;Edward Gibbon</item>
+        <item>I am become Death, the destroyer of worlds.\n\t&#8212;J. Robert Oppenheimer</item>
+        <item>The release of atomic energy has not created a new problem. It has merely made more urgent the necessity of solving an existing one.\n\t&#8212;Albert Einstein</item>
+        <item>He made an instrument to know/If the moon shine at full or no.\n\t&#8212;Samuel Butler</item>
+        <item>Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.\n\t&#8212;Sir Isaac Newton</item>
+        <item>In nothing do men more nearly approach the gods than in giving health to men.\n\t&#8212;Cicero</item>
+        <item>There is only one good, knowledge, and one evil, ignorance.\n\t&#8212;Socrates</item>
+        <item>Measure what is measurable, and make measurable what is not so.\n\t&#8212;Galileo</item>
+        <item>Ben, I want to say one word to you, just one word: plastics.\n\t&#8212;Buck Henry and Calder Willingham, \"The Graduate\"</item>
+        <item>Shall the clay say to him that fashioneth it, What makest thou?\n\t&#8212;The Bible, Isaiah 45:9</item>
+        <item>It is a newspaper\'s duty to print the news and raise hell.\n\t&#8212;The Chicago Times</item>
+        <item>Vision is the art of seeing things invisible.\n\t&#8212;Jonathan Swift</item>
+        <item>The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.\n\t&#8212;Woody Allen</item>
+        <item>The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.\n\t&#8212;Thomas Jefferson</item>
+        <item>And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.\n\t&#8212;William Wordsworth</item>
+        <item>Nothing is particularly hard if you divide it into small jobs.\n\t&#8212;Henry Ford</item>
+        <item>It is well that war is so terrible, or we should grow too fond of it.\n\t&#8212;Robert E. Lee</item>
+        <item>1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n2. A robot must obey any orders given to it by human beings, except where such orders would conflict with the First Law.\n3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.\n\t&#8212;Isaac Asimov</item>
+        <item>A good rule for rocket experimenters to follow is this: always assume that it will explode.\n\t&#8212;Astronautics Magazine, 1937</item>
+        <item>He who commands the sea has command of everything.\n\t&#8212;Themistocles</item>
+        <item>Now, somehow, in some new way, the sky seemed almost alien.\n\t&#8212;Lyndon B. Johnson</item>
+        <item>Every great advance in science has issues from a new audacity of imagination.\n\t&#8212;John Dewey</item>
+        <item>Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent\'s fate.\n\t&#8212;Sun Tzu</item>
+        <item>The nations of the West hope that by means of steam communications all the world will become as one family.\n\t&#8212;Townsend Harris</item>
+        <item>John Henry said to his Captain: \'A man ain\'t nothin\' but a man,/And before I\'ll let your steam drill beat me down,/I\'ll die with the hammer in my hand.\'\n\t&#8212;Anonymous, The Ballad of John Henry, the Steel-Drivin\' Man</item>
+        <item>I once sent a dozen of my friends a telegram saying \'flee at once - all is discovered.\' They all left town immediately.\n\t&#8212;Mark Twain</item>
+        <item>Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do.\n\t&#8212;St. Thomas Aquinas</item>
+        <item>Even brute beasts and wandering birds do not fall for the same traps or nets twice.\n\t&#8212;Saint Jerome</item>
+        <item>Wisdom and virtue are like the two wheels of a cart.\n\t&#8212;Japanese proverb</item>
+        <item>He who destroys a good book kills reason itself.\n\t&#8212;John Milton</item>
+        <item>The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.\n\t&#8212;Antonio da Magdalena</item>
+        <item>To achieve great things, two things are needed: a plan, and not quite enough time.\n\t&#8212;Leonard Bernstein</item>
+        <item>Pale Death beats equally at the poor man\'s gate and at the palaces of kings.\n\t&#8212;Horace</item>
+        <item>The katun is established at Chicen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.\n\t&#8212;The Books of Chilam Balam</item>
+        <item>Why man, he doth bestride the narrow world like a colossus; and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.\n\t&#8212;William Shakespeare, Julius Caesar</item>
+        <item>Come to me, all who labor and are heavy burdened, and I will give you rest.\n\t&#8212;The Bible, Matthew 25:28</item>
+        <item>We only live to discover beauty. All else is a form of waiting.\n\t&#8212;Khalil Gibran</item>
+        <item>Most of us can, as we choose, make of the world either a palace or a prison.\n\t&#8212;John Lubbock</item>
+        <item>Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and restored.\n\t&#8212;Sir Francis Bacon</item>
+        <item>They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.\n\t&#8212;The Bible, Psalms 107:23&#8211;24</item>
+        <item>The art of war teaches us to rely not on the likelihood of the enemy\'s&#8230;not attacking, but rather on the fact that we have made our position unassailable.\n\t&#8212;Sun Tzu</item>
+        <item>For it soars to a height to match the sky, and as if surging up from amongst the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty.\n\t&#8212;Procopius, De Aedificus</item>
+        <item>I think that if ever a mortal heard the word of God it would be in a garden at the cool of day.\n\t&#8212;F. Frankfort Moore</item>
+        <item>Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is not other reasoning.\n\t&#8212;Yamamoto Tsunetomo</item>
+        <item>The Law is a fortress on a hill that armies cannot take or floods wash away.\n\t&#8212;Muhammed</item>
+        <item>Every genuine work of art has as much reason for being as the earth and the sun.\n\t&#8212;Ralph Waldo Emerson</item>
+        <item>Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.\n\t&#8212;Hiram Bingham</item>
+        <item>Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.\n\t&#8212;Victor Hugo</item>
+        <item>The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing.\n\t&#8212;Socrates</item>
+        <item>In preparing for battle I have always found that plans are useless, but planning is indispensable.\n\t&#8212;Dwight D. Eisenhower</item>
+        <item>Things always seem fairer when we look back at them, and it is out of of that inaccessible tower of the past that Longing leans and beckons.\n\t&#8212;James Russell Lowell</item>
+        <item>O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am in the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.\n\t&#8212;The Book of the Dead (tr. Budge)</item>
+        <item>I live and love in God\'s peculiar light.\n\t&#8212;Michaelangelo Buonarotti</item>
+        <item>Give me your tired, your poor,/Your huddled masses yearning to breathe free,/The wretched refuse of your teeming shore./Send these, the homeless, tempest&#8211;tost to me,/I lift my lamp beside the golden door.\n\t&#8212;Emma Lazarus</item>
+        <item>Time crumbles things; everything grows old and is forgotten under the power of time.\n\t&#8212;Aristotle</item>
+        <item>Those who lose dreaming are lost.\n\t&#8212;Australian Aboriginal saying</item>
+        <item>The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.\n\t&#8212;Rabindranath Tagore</item>
+        <item>More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.\n\t&#8212;Kofi Annan</item>
+        <item>Such is the patriot\'s boast, where\'er we roam, His first, best country ever is, at home.\n\t&#8212;Oliver Goldsmith</item>
+        <item>The absurd is the essential concept and the first truth.\n\t&#8212;Albert Camus</item>
+        <item>The brain is like a muscle. When it is in use we feel very good. Understanding is joyous.\n\t&#8212;Carl Sagan</item>
+        <item>The fate of unborn millions will now depend, under God, on the courage and conduct of this army. We have, therefore, to resolve to conquer or die.\n\t&#8212;George Washington</item>
+        <item>Every French soldier carries a marshal\'s baton in his knapsack.\n\t&#8212;Napoleon Bonaparte</item>
+        <item>The physician can bury his mistakes, but the architect can only advise his client to plant vines.\n\t&#8212;Frank Lloyd Wright</item>
+        <item>Numberless are the world\'s wonders, but none more wonderful than man.\n\t&#8212;Sophocles</item>
+        <item>Honesty is the best policy.\n\t&#8212;Miguel de Cervantes</item>
+        <item>Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.\n\t&#8212;William Shakespeare</item>
+        <item>The true test of civilization is, not the census, nor the size of cities, nor the crops - no, but the kind of man the country turns out.\n\t&#8212;Ralph Waldo Emerson</item>
+        <item>The city is the teacher of the man.\n\t&#8212;Simonides</item>
+        <item>Stand your ground. Don\'t fire unless fired upon, but if they mean to have a war let it begin here!\n\t&#8212;John Parker</item>
+        <item>Seek not the lie of the immortals, but enjoy to the full the resources that are within reach.\n\t&#8212;Pindar</item>
+        <item>If I can in any way contribute to the diversion or improvement of the country in which I live, I shall leave it with the secret satisfaction of thinking that I have not lived in vain.\n\t&#8212;JOseph Addison</item>
+        <item>Proud is the spirit of Zeus&#8211;fostered kings &#8212; their honor comes from Zeus, and Zeus, god of council, loves them.\n\t&#8212;Pindar</item>
+        <item>He who knows others is wise; He who knows himself is enlightened.\n\t&#8212;Lao Tzu</item>
+        <item>The king\'s might is greater than human, and his arm is very long.\n\t&#8212;Herodotus</item>
+        <item>An emperor is subject to no one but God and justice.\n\t&#8212;Fredrick I, Barbarossa</item>
+        <item>This life of man appears for a short space, but of what went before of what is to follow we are utterly ignorant.\n\t&#8212;Saint Bede</item>
+        <item>The voice of the people is the voice of God.\n\t&#8212;European proverb</item>
+        <item>Whoever desires to found a state and give it laws, must start with assuming that all men are bad and ever ready to display their vicious nature, whenever they may find occasion for it.\n\t&#8212;Niccolo Machiavelli</item>
+        <item>In the country of the blind, the one&#8211;eyed man is king.\n\t&#8212;Erasmus</item>
+        <item>Do you not know, my son, with what little understanding the world is ruled?\n\t&#8212;Pope Julius III</item>
+        <item>We admit of no government by divine right&#8230;the only legitimate right to govern is an express grant of power from the governed.\n\t&#8212;William Henry Harrison</item>
+        <item>If you pick up a starving dog and make him prosperous, he will not bite you. This is the principal difference between a dog and a man.\n\t&#8212;Mark Twain</item>
+        <item>The day of small nations has long passed away. The day of empires has come.\n\t&#8212;Joseph Chamberlain</item>
+        <item>The only thing we have to fear is fear itself.\n\t&#8212;Franklin Delano Roosevelt</item>
+        <item>A single death is a tragedy. A million deaths is a statistic.\n\t&#8212;Josef Stalin</item>
+        <item>Mr. Gorbachev, tear down this wall!\n\t&#8211;Ronald Reagan</item>
+        <item>For tomorrow belongs to the people who prepare for it today.\n\t&#8212;African proverb</item>
+        <item>The future is not what it used to be.\n\t&#8212;Yogi Berra</item>
+        <item>I never think about the future &#8211; it comes soon enough.\n\t&#8212;Albert Einstein</item>
+    </string-array>
+    <string name="sys_extension_description">A DashClock extension that displays random quotes from Civilization V. Click on the widget to see the full quote and to copy it to the clipboard.</string>
+    <string name="sys_short_title">Civ V</string>
+    <string name="sys_long_title">DashQuotes: Civ V</string>
+    <string name="sys_close">Close</string>
+    <string name="sys_copy">Copy to Clipboard</string>
+    <string name="sys_copied">Text copied to clipboard.</string>
+
+</resources>
