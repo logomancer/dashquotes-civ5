@@ -137,7 +137,7 @@
         <item>The future is not what it used to be.\n\t&#8212;Yogi Berra</item>
         <item>I never think about the future &#8211; it comes soon enough.\n\t&#8212;Albert Einstein</item>
     </string-array>
-    <string name="sys_extension_description">A DashClock extension that displays random quotes from Civilization V. Click on the widget to see the full quote and to copy it to the clipboard.</string>
+    <string name="sys_extension_description">This extension displays random quotes from Civilization V. Click on the widget to see the full quote or to copy it to the clipboard.</string>
     <string name="sys_short_title">Civ V</string>
     <string name="sys_long_title">DashQuotes: Civ V</string>
     <string name="sys_close">Close</string>
