@@ -16,30 +16,40 @@
 
 package net.logomancy.dashquotes.civ5;
 
-import android.app.Activity;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import net.logomancy.dashquotes.civ5.R;
 
-public class ExpandActivity extends Activity implements OnClickListener {
+import java.util.Random;
+
+public class ExpandActivity extends AppCompatActivity implements OnClickListener {
 
 	String quote;
+	String[] quotes;
+	Random wheel;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.expand);
-		
-		quote = this.getIntent().getStringExtra("net.logomancy.dashquotes.civ5.QuoteString");
 		TextView quoteText = (TextView) findViewById(R.id.txtQuote);
+		wheel = new Random();
+		quotes = getResources().getStringArray(R.array.quotes);
+
+		quote = this.getIntent().getStringExtra("net.logomancy.dashquotes.civ5.QuoteString");
+
+		if(quote == null) {
+			quote = quotes[wheel.nextInt(quotes.length)];
+		}
+
 		quoteText.setText(quote);
 		
 		Button close = (Button) findViewById(R.id.btnClose);
