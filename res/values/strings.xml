@@ -143,5 +143,6 @@
     <string name="sys_close">Close</string>
     <string name="sys_copy">Copy to Clipboard</string>
     <string name="sys_copied">Text copied to clipboard.</string>
+    <string name="sys_new">New Quote</string>
 
 </resources>

@@ -21,56 +21,65 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Random;
 
-public class ExpandActivity extends AppCompatActivity implements OnClickListener {
+public class ExpandActivity extends AppCompatActivity {
 
 	String quote;
 	String[] quotes;
 	Random wheel;
+	TextView quoteText;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.expand);
-		TextView quoteText = (TextView) findViewById(R.id.txtQuote);
+		quoteText = (TextView) findViewById(R.id.txtQuote);
 		wheel = new Random();
 		quotes = getResources().getStringArray(R.array.quotes);
 
 		quote = this.getIntent().getStringExtra("net.logomancy.dashquotes.civ5.QuoteString");
 
 		if(quote == null) {
-			quote = quotes[wheel.nextInt(quotes.length)];
+			quote = getQuote();
 		}
 
 		quoteText.setText(quote);
-		
-		Button close = (Button) findViewById(R.id.btnClose);
-		close.setOnClickListener(this);
-		
-		Button cp = (Button) findViewById(R.id.btnCopy);
-		cp.setOnClickListener(this);
-		
 	}
-	
-	public void onClick(View v) {
-		switch(v.getId()){
-		case(R.id.btnClose):
-			finish();
-		break;
-		case(R.id.btnCopy):
-			ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-			ClipData copypasta = ClipData.newPlainText("Civ V Quote", quote);
-			clipboard.setPrimaryClip(copypasta);
-			Toast.makeText(this, R.string.sys_copied, Toast.LENGTH_SHORT).show();
-		break;
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch(item.getItemId()) {
+			case (R.id.menu_copy):
+				ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+				ClipData copypasta = ClipData.newPlainText("Civ V Quote", quoteText.getText());
+				clipboard.setPrimaryClip(copypasta);
+				Toast.makeText(this, R.string.sys_copied, Toast.LENGTH_SHORT).show();
+				return true;
+			case (R.id.menu_new):
+				quoteText.setText(getQuote());
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
 		}
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// boilerplate
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main_menu, menu);
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	protected String getQuote() {
+		return quotes[wheel.nextInt(quotes.length)];
 	}
 }
