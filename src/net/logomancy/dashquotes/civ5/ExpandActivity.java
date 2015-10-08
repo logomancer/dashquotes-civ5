@@ -20,16 +20,18 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.Random;
 
-public class ExpandActivity extends AppCompatActivity {
+public class ExpandActivity extends AppCompatActivity implements View.OnClickListener {
 
 	String quote;
 	String[] quotes;
@@ -41,6 +43,10 @@ public class ExpandActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.expand);
+
+		FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.btnNew);
+		fab.setOnClickListener(this);
+
 		quoteText = (TextView) findViewById(R.id.txtQuote);
 		wheel = new Random();
 		quotes = getResources().getStringArray(R.array.quotes);
@@ -61,15 +67,14 @@ public class ExpandActivity extends AppCompatActivity {
 				ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 				ClipData copypasta = ClipData.newPlainText("Civ V Quote", quoteText.getText());
 				clipboard.setPrimaryClip(copypasta);
-				Toast.makeText(this, R.string.sys_copied, Toast.LENGTH_SHORT).show();
-				return true;
-			case (R.id.menu_new):
-				quoteText.setText(getQuote());
+				Snackbar.make(quoteText, R.string.sys_copied, Snackbar.LENGTH_SHORT).show();
 				return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}
 	}
+
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -81,5 +86,16 @@ public class ExpandActivity extends AppCompatActivity {
 
 	protected String getQuote() {
 		return quotes[wheel.nextInt(quotes.length)];
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch(v.getId()) {
+			case (R.id.btnNew):
+				quoteText.setText(getQuote());
+				break;
+			default:
+				break;
+		}
 	}
 }
