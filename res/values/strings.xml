@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">DashQuotes: Civilization V</string>
     <string-array name="quotes">
-        
         <item>Their rising all at once was as the sound of a thunder heard remote.\n\t&#8212;John Milton</item>
         <item>Once the rockets are up, who cares where they come down?\n\t&#8212;Tom Lehrer</item>
         <item>Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.\n\t&#8212;Daniel Webster</item>
@@ -146,5 +145,4 @@
     <string name="sys_new">New Quote</string>
     <string name="nav_open">Open Navigation Drawer</string>
     <string name="nav_close">Close Navigation Drawer</string>
-
 </resources>

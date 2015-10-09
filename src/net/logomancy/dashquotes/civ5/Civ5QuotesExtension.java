@@ -21,8 +21,8 @@ import android.content.res.Resources;
 
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
+
 import java.util.Random;
-import net.logomancy.dashquotes.civ5.R;
 
 public class Civ5QuotesExtension extends DashClockExtension {
 	String[] quotes;
@@ -47,7 +47,7 @@ public class Civ5QuotesExtension extends DashClockExtension {
 		
 		publishUpdate(new ExtensionData()
         .visible(true)
-        .icon(R.drawable.ic_launcher)
+        .icon(R.mipmap.ic_launcher)
         .status(res.getString(R.string.sys_short_title))
         .expandedTitle(res.getString(R.string.app_name))
         .expandedBody(quotes[index])

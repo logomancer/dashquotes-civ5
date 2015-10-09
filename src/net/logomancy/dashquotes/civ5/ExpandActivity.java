@@ -43,6 +43,7 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 	NavigationView navMain;
 	DrawerLayout drawerMain;
 	ActionBarDrawerToggle toggler;
+	Typeface notFutura;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +56,8 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 		navMain = (NavigationView) findViewById(R.id.nav);
 		navMain.setNavigationItemSelectedListener(this);
 		drawerMain = (DrawerLayout) findViewById(R.id.drawer_main);
+		notFutura = Typeface.createFromAsset(getAssets(), "GI-Regular.otf");
+
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
 
@@ -65,7 +68,10 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 		toggler.syncState();
 
 		quoteText = (TextView) findViewById(R.id.txtQuote);
-		quoteText.setTypeface(Typeface.createFromAsset(getAssets(), "GI-Regular.otf"));
+		quoteText.setTypeface(notFutura);
+
+		TextView hdrText = (TextView) findViewById(R.id.headerText);
+		hdrText.setTypeface(notFutura);
 
 		wheel = new Random();
 		quotes = getResources().getStringArray(R.array.quotes);
@@ -94,7 +100,12 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item) {
 		if (item.getItemId() == android.R.id.home) {
-			drawerMain.openDrawer(GravityCompat.START);
+			if(drawerMain.isDrawerOpen(GravityCompat.START)) {
+				drawerMain.closeDrawer(GravityCompat.START);
+			}
+			else {
+				drawerMain.openDrawer(GravityCompat.START);
+			}
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
