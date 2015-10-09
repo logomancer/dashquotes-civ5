@@ -29,11 +29,10 @@
                 android:id="@+id/txtQuote"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="@style/ExpandedQuote"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
                 android:gravity="center_vertical"
-                android:elegantTextHeight="true"/>
+                android:layout_margin="30dp"
+                android:lineSpacingExtra="32dp"
+                android:textAppearance="@style/ExpandedQuote" />
         </LinearLayout>
 
         <android.support.design.widget.FloatingActionButton

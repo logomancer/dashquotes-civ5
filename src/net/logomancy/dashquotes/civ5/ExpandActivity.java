@@ -70,9 +70,6 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 		drawerMain.setDrawerListener(toggler);
 		toggler.syncState();
 
-		quoteText = (TextView) findViewById(R.id.txtQuote);
-		quoteText.setTypeface(notFutura);
-
 		TextView hdrText = (TextView) findViewById(R.id.headerText);
 		hdrText.setTypeface(notFutura);
 
@@ -83,7 +80,9 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 		if(quote == null) {
 			quote = getQuote();
 		}
+		quoteText = (TextView) findViewById(R.id.txtQuote);
 		quoteText.setText(quote);
+		quoteText.setTypeface(notFutura);
 	}
 
 	@Override
