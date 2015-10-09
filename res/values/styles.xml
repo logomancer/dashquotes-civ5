@@ -9,7 +9,7 @@
 
     <!-- Application theme. -->
     <style name="AppThemeDark" parent="AppBaseThemeDark">
-        <item name="colorPrimary">#37474f</item>
+        <item name="colorPrimary">#546e7a</item>
         <item name="colorPrimaryDark">#050505</item>
         <item name="colorAccent">#baba00</item>
 	</style>
