@@ -15,6 +15,16 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:fitsSystemWindows="true"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:background="?attr/colorPrimaryDark">
+            </android.support.v7.widget.Toolbar>
+
             <TextView
                 android:id="@+id/txtQuote"
                 android:layout_width="match_parent"
@@ -22,7 +32,7 @@
                 android:textAppearance="@style/ExpandedQuote"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:gravity="fill_vertical"
+                android:gravity="center_vertical"
                 android:elegantTextHeight="true" />
         </LinearLayout>
 

@@ -28,6 +28,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -57,6 +58,8 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 		navMain.setNavigationItemSelectedListener(this);
 		drawerMain = (DrawerLayout) findViewById(R.id.drawer_main);
 		notFutura = Typeface.createFromAsset(getAssets(), "GI-Regular.otf");
+		Toolbar tb = (Toolbar) findViewById(R.id.toolbar);
+		setSupportActionBar(tb);
 
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
@@ -81,6 +84,11 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 			quote = getQuote();
 		}
 		quoteText.setText(quote);
+	}
+
+	@Override
+	protected void onPostCreate(Bundle savedInstanceState) {
+		super.onPostCreate(savedInstanceState);
 	}
 
 	@Override
