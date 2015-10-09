@@ -22,22 +22,27 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
 import java.util.Random;
 
-public class ExpandActivity extends AppCompatActivity implements View.OnClickListener {
+public class ExpandActivity extends AppCompatActivity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener {
 
 	String quote;
 	String[] quotes;
 	Random wheel;
 	TextView quoteText;
+	NavigationView navMain;
+	DrawerLayout drawerMain;
+	ActionBarDrawerToggle toggler;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +51,18 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 
 		FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.btnNew);
 		fab.setOnClickListener(this);
+
+		navMain = (NavigationView) findViewById(R.id.nav);
+		navMain.setNavigationItemSelectedListener(this);
+		drawerMain = (DrawerLayout) findViewById(R.id.drawer_main);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setHomeButtonEnabled(true);
+
+		// set up the hamburger icon to open and close the drawer
+		toggler = new ActionBarDrawerToggle(this, drawerMain, R.string.nav_open,
+				R.string.nav_close);
+		drawerMain.setDrawerListener(toggler);
+		toggler.syncState();
 
 		quoteText = (TextView) findViewById(R.id.txtQuote);
 		quoteText.setTypeface(Typeface.createFromAsset(getAssets(), "GI-Regular.otf"));
@@ -61,9 +78,10 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
+	public boolean onNavigationItemSelected(MenuItem item) {
 		switch(item.getItemId()) {
 			case (R.id.menu_copy):
+				drawerMain.closeDrawer(GravityCompat.START);
 				ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
 				ClipData copypasta = ClipData.newPlainText("Civ V Quote", quoteText.getText());
 				clipboard.setPrimaryClip(copypasta);
@@ -73,15 +91,13 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 				return super.onOptionsItemSelected(item);
 		}
 	}
-
-
-
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// boilerplate
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.main_menu, menu);
-		return super.onCreateOptionsMenu(menu);
+	public boolean onOptionsItemSelected(final MenuItem item) {
+		if (item.getItemId() == android.R.id.home) {
+			drawerMain.openDrawer(GravityCompat.START);
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 
 	protected String getQuote() {
@@ -98,4 +114,5 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 				break;
 		}
 	}
+
 }

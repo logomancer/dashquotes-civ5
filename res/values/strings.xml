@@ -79,7 +79,7 @@
         <item>The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.\n\t&#8212;Antonio da Magdalena</item>
         <item>To achieve great things, two things are needed: a plan, and not quite enough time.\n\t&#8212;Leonard Bernstein</item>
         <item>Pale Death beats equally at the poor man\'s gate and at the palaces of kings.\n\t&#8212;Horace</item>
-        <item>The katun is established at Chicen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.\n\t&#8212;The Books of Chilam Balam</item>
+        <item>The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.\n\t&#8212;The Books of Chilam Balam</item>
         <item>Why man, he doth bestride the narrow world like a colossus; and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.\n\t&#8212;William Shakespeare, Julius Caesar</item>
         <item>Come to me, all who labor and are heavy burdened, and I will give you rest.\n\t&#8212;The Bible, Matthew 25:28</item>
         <item>We only live to discover beauty. All else is a form of waiting.\n\t&#8212;Khalil Gibran</item>
@@ -121,7 +121,7 @@
         <item>Proud is the spirit of Zeus&#8211;fostered kings &#8212; their honor comes from Zeus, and Zeus, god of council, loves them.\n\t&#8212;Pindar</item>
         <item>He who knows others is wise; He who knows himself is enlightened.\n\t&#8212;Lao Tzu</item>
         <item>The king\'s might is greater than human, and his arm is very long.\n\t&#8212;Herodotus</item>
-        <item>An emperor is subject to no one but God and justice.\n\t&#8212;Fredrick I, Barbarossa</item>
+        <item>An emperor is subject to no one but God and justice.\n\t&#8212;Frederick I, Barbarossa</item>
         <item>This life of man appears for a short space, but of what went before of what is to follow we are utterly ignorant.\n\t&#8212;Saint Bede</item>
         <item>The voice of the people is the voice of God.\n\t&#8212;European proverb</item>
         <item>Whoever desires to found a state and give it laws, must start with assuming that all men are bad and ever ready to display their vicious nature, whenever they may find occasion for it.\n\t&#8212;Niccolo Machiavelli</item>
@@ -144,5 +144,7 @@
     <string name="sys_copy">Copy to Clipboard</string>
     <string name="sys_copied">Text copied to clipboard.</string>
     <string name="sys_new">New Quote</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
 
 </resources>
