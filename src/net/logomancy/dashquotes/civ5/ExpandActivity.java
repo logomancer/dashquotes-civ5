@@ -19,6 +19,7 @@ package net.logomancy.dashquotes.civ5;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -41,22 +42,21 @@ public class ExpandActivity extends AppCompatActivity implements View.OnClickLis
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
 		setContentView(R.layout.expand);
 
 		FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.btnNew);
 		fab.setOnClickListener(this);
 
 		quoteText = (TextView) findViewById(R.id.txtQuote);
+		quoteText.setTypeface(Typeface.createFromAsset(getAssets(), "GI-Regular.otf"));
+
 		wheel = new Random();
 		quotes = getResources().getStringArray(R.array.quotes);
 
 		quote = this.getIntent().getStringExtra("net.logomancy.dashquotes.civ5.QuoteString");
-
 		if(quote == null) {
 			quote = getQuote();
 		}
-
 		quoteText.setText(quote);
 	}
 

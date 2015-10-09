@@ -13,8 +13,7 @@
 	    
     <style name="ExpandedQuote">
         <item name="android:textSize">24sp</item>
-        <item name="android:typeface">serif</item>
-        <item name="android:textColor">#cacaca</item>
+        <item name="android:textColor">#caca00</item>
     </style>
 
 </resources>
