@@ -22,7 +22,7 @@
                 android:fitsSystemWindows="true"
                 android:minHeight="?attr/actionBarSize"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                android:background="?attr/colorPrimaryDark">
+                android:background="?attr/colorPrimary">
             </android.support.v7.widget.Toolbar>
 
             <TextView
@@ -33,14 +33,14 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:gravity="center_vertical"
-                android:elegantTextHeight="true" />
+                android:elegantTextHeight="true"/>
         </LinearLayout>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/btnNew"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right|bottom"
+            android:layout_gravity="end|bottom"
             android:layout_margin="30dp"
             android:src="@drawable/ic_action_new_quote"/>
 

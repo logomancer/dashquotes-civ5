@@ -4,16 +4,19 @@
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
-    <style name="AppBaseTheme" parent="Theme.AppCompat.NoActionBar">
+    <style name="AppBaseThemeDark" parent="Theme.AppCompat.NoActionBar">
     </style>
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
+    <style name="AppThemeDark" parent="AppBaseThemeDark">
+        <item name="colorPrimary">#37474f</item>
+        <item name="colorPrimaryDark">#050505</item>
+        <item name="colorAccent">#baba00</item>
 	</style>
 	    
     <style name="ExpandedQuote">
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#caca00</item>
+        <item name="android:textColor">?attr/colorAccent</item>
     </style>
 
 </resources>
