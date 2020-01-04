@@ -1,3 +1,5 @@
+**As DashClock has been deprecated for some time, this repository has been archived and exists only for historical reasons. Unless there's a sudden revival of a several-year-old clock widget, no further work on this code is to be expected.**
+
 DashQuotes: Civilization V
 ===============
 
